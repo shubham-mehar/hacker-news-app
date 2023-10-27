@@ -1,0 +1,28 @@
+.post-detail-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .loading-container {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #868e96;
+    animation: fadeIn 1s ease-in-out infinite;
+  }
+
+  li {
+    word-wrap: break-word; 
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  @keyframes fadeIn {
+    0%, 100% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
